@@ -170,7 +170,7 @@ typedef enum {
 
     // Grove connector namings
 #ifndef ARDUINO
-    D38         = PC_6,
+	D38         = PC_6,
     D39         = PC_7,
     D20         = PB_4,
     D19         = PB_3,

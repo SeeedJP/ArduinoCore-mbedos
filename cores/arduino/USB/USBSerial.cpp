@@ -113,4 +113,6 @@ bool USBSerial::connected()
     return _terminal_connected;
 }
 
+#ifndef ARDUINO
 USBSerial SerialUSB(false);
+#endif // ARDUINO
