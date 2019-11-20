@@ -21,7 +21,7 @@
 #if DEVICE_SPI
 
 #include "BlockDevice.h"
-#include "drivers/SPI.h"
+#include "drivers/SPIMaster.h"
 #include "drivers/Timer.h"
 #include "drivers/MbedCRC.h"
 #include "drivers/DigitalOut.h"
